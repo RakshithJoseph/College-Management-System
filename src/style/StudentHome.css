@@ -1,0 +1,234 @@
+.studentContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  flex-direction: column;
+}
+.studentBtnsArea {
+  display: flex;
+  margin-top: 40px;
+}
+.studentList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.studentList li {
+  list-style: none;
+  background-color: #1f1f1f;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  border-bottom: 1.4px solid #1f1f1f;
+}
+.studentView {
+  margin: 10px 0px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.disable {
+  display: none !important;
+}
+.notice,
+.itemShow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.timetableShowArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timetableShowArea img {
+  width: 80%;
+}
+#downTimeTable {
+  background-color: #1f1f1f;
+  border: none;
+  padding: 10px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin: 20px 0px;
+  border-radius: 5px;
+}
+.material,
+.notice {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.itemShowCard {
+  background-color: white;
+  margin: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  padding: 6px;
+  box-shadow: rgba(0, 0, 0, 0.2) 1.95px 1.95px 2.6px;
+}
+.itemShowTitle {
+  padding: 8px;
+  font-weight: 600;
+}
+.itemShowTime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 4px;
+}
+.itemShowViewButton {
+  padding: 8px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.itemShowViewButtonTitle {
+  padding: 8px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.openLinkitemShowIcon {
+  margin: 0px 6px;
+}
+.itemShowIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+}
+.marksShowArea {
+  width: 76%;
+  display: flex;
+  justify-content: space-between;
+}
+.marksCard {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 20px;
+  background-color: white;
+  width: 46%;
+  border-radius: 6px;
+}
+.marksCard li {
+  color: black !important;
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 15px;
+  padding: 4px 10px;
+  border-radius: 0px !important;
+}
+.marksTitle {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.marksTable {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subjectList {
+  width: 80%;
+  text-align: left;
+}
+.material {
+  flex-direction: column;
+}
+.marksList {
+  width: 20%;
+}
+.totalMarkShow {
+  font-weight: 600;
+}
+.marksCard li:last-child {
+  background-color: #cacacabf;
+}
+@media only screen and (max-width: 800px) {
+  .material,
+  .notice {
+    width: 90%;
+  }
+  .studentList li {
+    width: 150px;
+  }
+  .itemShowTime {
+    background-color: inherit;
+    font-size: 14px;
+  }
+  .itemShowTitle {
+    padding-bottom: 5px;
+    text-align: center;
+  }
+  .itemShowViewButton {
+    background-color: inherit;
+  }
+  .itemShowIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+  }
+
+  .itemShowCard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .marksShowArea {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .marksCard:first-child {
+    margin-bottom: 20px;
+  }
+  .marksCard {
+    width: 100%;
+  }
+  .studentView {
+    width: 100%;
+    padding: 0px 5px;
+    margin: 25px 0px;
+  }
+  .marksTitle {
+    font-size: 15px;
+  }
+  .subjectList li,
+  .marksList li {
+    font-size: 13.5px;
+  }
+  .marksShowArea {
+    width: 95%;
+  }
+  .marksCard li:last-child {
+    background-color: #cacaca75;
+  }
+}

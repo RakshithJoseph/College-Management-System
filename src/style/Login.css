@@ -1,0 +1,112 @@
+body {
+  background: radial-gradient(
+    circle,
+    rgb(206, 78, 78) 0%,
+    hsla(0, 0%, 96%, 1) 99%
+  );
+}
+.loginContainer {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#loginImg {
+  width: 25vw;
+  margin: 30px;
+  margin-right: 0px !important;
+  padding-right: 20px;
+  border-radius: 0px;
+  border-right: 1.4px solid rgb(127, 127, 127);
+}
+.loginCard {
+  min-width: 25vw;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 30px;
+}
+#loginid,
+#password {
+  padding: 8px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 16px;
+  width: 20vw;
+}
+.submitBtn {
+  padding: 8px;
+  border: none;
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: #1f1f1f;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #e5e5e5;
+  border-radius: 5px;
+}
+label {
+  font-size: 13px;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+button {
+  cursor: pointer;
+}
+.loginTitle {
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.myProfile {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  padding: 10px;
+  border-radius: 6px;
+}
+.profileTitle {
+  color: #1f1f1f;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+  text-align: center;
+}
+@media only screen and (max-width: 800px) {
+  #loginImg {
+    display: none;
+  }
+  .loginCard {
+    width: 85%;
+    padding: 10px;
+  }
+  #loginid,
+  #password {
+    width: 100%;
+  }
+  .myProfile {
+    width: 100%;
+    bottom: 0;
+    right: 0;
+  }
+  .profileTitle {
+    font-size: 11px;
+  }
+}

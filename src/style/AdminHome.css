@@ -1,0 +1,384 @@
+.mainAdminPanelContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.adminCards {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.adminCard {
+  background-color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.4) 1.95px 1.95px 2.6px;
+  margin: 20px;
+  padding: 30px 15px;
+  border-radius: 6px;
+}
+.adminCardLabel {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.mainAdminArea {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.adminBtnArea {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.2) 1.95px 1.95px 2.6px;
+  padding: 8px;
+  border-radius: 6px;
+  flex-wrap: wrap;
+}
+.adminPanelBtns {
+  background-color: #1f1f1f;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  border: 1.4px solid #1f1f1f;
+}
+.middleAdminCards {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.adminAllBranchData,
+.adminAllAdminData {
+  width: 40%;
+  background-color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.2) 1.95px 1.95px 2.6px;
+  padding: 20px;
+  border-radius: 4px;
+}
+.adminBranchDetailTitle,
+.adminDetailTitle {
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1.4px solid black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #1f1f1f15;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.adminAllAdminData {
+  display: flex;
+  flex-direction: column;
+}
+.adminBranchDetailLabel,
+.adminDetailLabel {
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.adminBranchDetailLabel {
+  text-align: left !important;
+}
+.adminDetailLabel {
+  display: flex;
+  justify-content: space-between;
+}
+.listShowSubjects {
+  margin-left: 15px;
+  list-style: number !important;
+}
+.adminEmail {
+  width: 65%;
+  font-size: 13px !important;
+  text-align: left;
+}
+.rightsInfo {
+  background-color: #1f1f1f21;
+  padding: 3px;
+  align-self: flex-end;
+  font-size: 11px;
+  border-radius: 2px;
+}
+/* Add Student Css */
+.MainAdmin {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.adminContainer {
+  background-color: white;
+  padding: 15px 20px;
+  display: grid;
+  border-radius: 6px;
+}
+.adminTitle {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  font-size: 26px;
+  margin-top: 10px;
+}
+.adminForm {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.adminForm input {
+  margin: 10px;
+}
+#submitDataAdmin {
+  background-color: #1f1f1f;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  display: block;
+  border: none;
+  margin: auto;
+  margin-top: 20px;
+  padding: 12px 70px;
+  grid-column: 1 / span 2;
+}
+
+.addStudentInputs,
+.addFacultyInputs {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.addStudentInputs input,
+.addFacultyInputs input {
+  margin: 5px !important;
+}
+
+.addStudentInputs label,
+.addFacultyInputs label {
+  margin: 2px !important;
+}
+.addSubjectArea {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 100%;
+}
+.subjectsList,
+.addSubjectSection {
+  background-color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.2) 1.95px 1.95px 2.6px;
+  padding: 20px;
+  border-radius: 5px;
+  width: 35%;
+}
+.subjectsList {
+  width: 45%;
+}
+.subjectListTitle {
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 5px;
+  border-bottom: 1.4px solid black;
+  margin-bottom: 10px;
+  background-color: #1f1f1f1a;
+}
+.addSubjectSection {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.subjectsList li {
+  color: black !important;
+  list-style: none;
+  padding: 5px;
+  font-size: 14.5px;
+}
+.addSubjectInputArea {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.submitAddSubjectDetails {
+  background-color: #1f1f1f;
+  padding: 10px;
+  margin-top: 12px;
+  color: whitesmoke;
+}
+.rightsMessage {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1f1f;
+  color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.2) 1.95px 1.95px 2.6px;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+#rightIcon {
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px !important;
+}
+
+@media only screen and (max-width: 800px) {
+  .adminCards {
+    flex-direction: row;
+    padding: 5px;
+    margin-top: 20px;
+  }
+  .adminCard {
+    width: 45%;
+    margin: 5px;
+    padding: 15px;
+    font-size: 14px;
+  }
+  .middleAdminCards {
+    flex-direction: column;
+  }
+  .adminAllBranchData {
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .MainAdmin {
+    width: 100% !important;
+  }
+  .adminAllAdminData {
+    width: 100%;
+  }
+  .adminEmail {
+    font-size: 12px;
+    width: auto;
+  }
+  .rightsInfo {
+    font-size: 10px;
+  }
+  .adminDetailTitle,
+  .adminBranchDetailTitle {
+    font-size: 14px;
+    padding: 6px;
+  }
+  .subjectsList li {
+    font-size: 13px;
+  }
+  .adminPanelBtns {
+    width: 120px;
+  }
+  .adminBtnArea {
+    flex-wrap: wrap;
+    width: 90%;
+  }
+  .adminShowArea {
+    width: 90%;
+  }
+  .adminForm input {
+    width: 100%;
+  }
+  .addStudentInputs:nth-child(even) {
+    margin-left: 5px;
+  }
+  .addStudentInputs:nth-child(odd) {
+    margin-left: -5px;
+  }
+  .addFacultyInputs:nth-child(even) {
+    margin-left: 5px;
+  }
+  .addFacultyInputs:nth-child(odd) {
+    margin-left: -5px;
+  }
+  #submitDataAdmin {
+    padding: 10px;
+  }
+  .addSubjectArea {
+    flex-direction: column-reverse;
+  }
+  .subjectsList {
+    width: 100%;
+  }
+  .addSubjectSection {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .noticeAddForm {
+    width: 100%;
+  }
+  .leaveBlankMessage {
+    text-align: center;
+    font-size: 10px;
+  }
+  .studentListViewFaculty,
+  .facultyListViewFaculty {
+    width: 100%;
+  }
+  .studentListShowCardStudentView,
+  .facultyListShowCardStudentView {
+    display: grid;
+    grid-template-columns: 80px auto;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .studentBranchShowTitle {
+    font-size: 14px;
+  }
+  .studentlistViewProfile,
+  .facultylistViewProfile {
+    margin: 0 !important;
+    grid-area: 1 / 1 / 4 / 2;
+    place-items: center;
+  }
+  .studentListShowEnrollment,
+  .facultyListShowEnrollment {
+    grid-area: 1 / 2 / 2 / 3;
+    font-weight: 500;
+    width: 100%;
+    font-size: 14px;
+    display: flex;
+    margin-bottom: 5px;
+  }
+  .studentListShowName,
+  .facultyListShowName {
+    grid-area: 2 / 2 / 3 / 3;
+    font-weight: 500;
+    font-size: 14px;
+    place-items: start;
+    margin-bottom: 3px;
+  }
+  .studentListShowPhoneNo,
+  .facultyListShowPhoneNo {
+    grid-area: 3 / 2 / 4 / 3;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 3px;
+    place-items: start;
+  }
+  small {
+    display: none;
+  }
+  .facultyListShowEmail {
+    display: none;
+  }
+  .facultyListShowPost {
+    display: none;
+  }
+}

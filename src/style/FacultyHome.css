@@ -1,0 +1,367 @@
+.facultyContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  flex-direction: column;
+}
+.facultyBtnsArea {
+  display: flex;
+  margin-top: 40px;
+}
+.facultyList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.facultyList li {
+  list-style: none;
+  background-color: #1f1f1f;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  border: 1.4px solid #1f1f1f;
+}
+.none {
+  display: block;
+}
+.facultyShowArea {
+  width: 100%;
+  margin: 40px 0px;
+  display: flex;
+  justify-content: center;
+}
+.noticeAddForm,
+.materialAddForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  width: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 1.95px 1.95px 2.6px;
+}
+.noticeAddtitle,
+.materialAddtitle {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.addNoticeTitleInput,
+.addmaterialTitleInput {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.noticeLabel,
+.materialLabel {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-align: left;
+  margin: 10px 0px;
+}
+.leaveBlankMessage {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1.4px;
+  font-weight: 600;
+}
+#uploadNoticeSubmitBtn,
+#uploadMaterialSubmitBtn {
+  background-color: #1f1f1f;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  display: flex;
+}
+.inputSub {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 80px;
+}
+#inputSub {
+  margin: 0px !important;
+  width: 100% !important;
+  padding: 10px;
+  font-size: 14px;
+}
+.facultyListViewFaculty {
+  width: 90%;
+  background-color: white;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 1.95px 1.95px 2.6px;
+}
+.studentListViewFaculty,
+.uploadMarksSection {
+  background-color: white;
+  padding: 20px;
+  width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.2) 1.95px 1.95px 2.6px;
+}
+.uploadMarksSubmitArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.submitMarksUploadMarksSec {
+  background-color: #1f1f1f;
+  padding: 10px 20px;
+  margin: 30px 0px 10px 0px;
+  font-size: 16px;
+}
+.selectBranch {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+select {
+  padding: 8px;
+  font-size: 13px;
+  margin: 10px;
+  width: auto;
+}
+.showStudentMarkUploadSec {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.studentListTable {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.studentBranchShowTitle {
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 6px 0px;
+  text-align: center;
+  margin-bottom: 15px;
+  width: 100%;
+  background-color: #1f1f1f22;
+}
+.studentMarksUploadCardMarksUpload {
+  background-color: white;
+  display: flex;
+  padding: 10px;
+  width: 96%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1.4px solid #1f1f1f;
+}
+.studentListShowCardStudentView {
+  background-color: white;
+  display: grid;
+  padding: 10px;
+  width: 90%;
+  grid-template-columns: auto repeat(3, 1fr);
+  border-bottom: 1.4px solid #1f1f1f;
+}
+.facultyListShowCardStudentView {
+  background-color: white;
+  display: grid;
+  padding: 10px;
+  width: 98%;
+  grid-template-columns: auto repeat(5, 1fr);
+  border-bottom: 1.4px solid #1f1f1f;
+}
+.studentMarksUploadCard {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1.4px solid #1f1f1f;
+}
+.studentMarksUploadTable {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.studentlistViewProfile,
+.facultylistViewProfile {
+  height: 60px !important;
+  width: 60px !important;
+  object-fit: cover !important;
+  margin: 0px !important;
+  border-radius: 10%;
+  margin-right: 20px !important;
+  place-items: center;
+}
+.studentListShowEnrollment,
+.studentListShowName,
+.studentListShowPhoneNo {
+  display: grid;
+  place-items: center start;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+.studentListShowName {
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+.facultyListShowEnrollment,
+.facultyListShowName,
+.facultyListShowPhoneNo,
+.facultyListShowEmail,
+.facultyListShowPost {
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+a {
+  color: black !important;
+  text-decoration: none;
+}
+#getStudentDataBtn {
+  background-color: #1f1f1f;
+  padding: 10px;
+  margin: 10px;
+}
+small {
+  margin-bottom: -18px;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11.5px;
+}
+.AddTimetableSec {
+  width: 40%;
+  display: flex;
+  padding: 20px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.2) 1.95px 1.95px 2.6px;
+}
+.timetableAdd {
+  font-weight: 600;
+  padding: 6px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  width: 70%;
+  text-align: center;
+  color: black;
+  margin: 10px 0px;
+  border-bottom: 1.4px solid black;
+}
+.addTimetableBtn {
+  background-color: #1f1f1f;
+  padding: 10px;
+  margin-top: 15px;
+}
+.addTimetableInputArea {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 800px) {
+  .studentListShowCardStudentView {
+    width: 100%;
+  }
+  .studentListViewFaculty {
+    width: 98%;
+  }
+  .studentListShowName {
+    text-transform: none;
+    letter-spacing: 1px;
+  }
+  .addNoticeTitleInput,
+  .addmaterialTitleInput {
+    width: 90%;
+  }
+  .noticeAddForm input {
+    width: 100%;
+  }
+  .noticeAddtitle,
+  .materialAddtitle {
+    font-size: 18px;
+  }
+  .facultyShowArea {
+    width: 80%;
+  }
+  .noticeLabel,
+  .materialLabel {
+    font-size: 12px;
+  }
+  .materialAddForm {
+    width: 100%;
+  }
+  #uploadMaterialSubmitBtn {
+    margin-top: 20px;
+  }
+  .uploadMarksSection {
+    width: 100%;
+  }
+  select {
+    width: 90%;
+  }
+  .studentMarksUploadCardMarksUpload {
+    flex-direction: column;
+  }
+  .studentMarksUploadEnrollment,
+  .studentMarksUploadName {
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 5px;
+    font-size: 14px;
+  }
+  .studentMarksUploadCardMarksUpload input {
+    margin-top: 10px;
+    padding: 5px;
+    width: 70%;
+  }
+  .studentMarksUploadCardMarksUpload input::placeholder {
+    font-size: 14px;
+  }
+  .studentBranchShowTitle {
+    font-size: 14px !important;
+  }
+  .AddTimetableSec {
+    width: 100%;
+  }
+  .addTimetableInputArea {
+    display: flex;
+    flex-direction: column;
+  }
+  .timetableAdd {
+    width: 100%;
+  }
+  .timetableInput {
+    width: 100%;
+  }
+  .timetableInput::placeholder {
+    font-size: 15px;
+  }
+}

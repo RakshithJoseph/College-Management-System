@@ -1,0 +1,57 @@
+.navMain {
+  background-color: rgb(221, 241, 183);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  display: flex;
+  justify-content: space-between;
+}
+.MainNavHead {
+  justify-content: center !important;
+}
+.navTitle {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 16px;
+}
+.logoutNavBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin: 10px 15px;
+  background-color: #1f1f1f;
+  padding: 4px 8px;
+  color: #e5e5e5;
+  border-radius: 2px !important;
+}
+.navLogoutIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin-left: 6px;
+}
+@media only screen and (max-width: 800px) {
+  .navTitle {
+    font-size: 16px;
+    font-weight: 700 !important;
+  }
+  #logoutText {
+    display: none;
+  }
+  .navLogoutIcon {
+    margin: 0px;
+    width: 25px;
+    font-size: 22px;
+  }
+  .logoutNavBtn {
+    background-color: #e5e5e5;
+    color: #14213d !important;
+  }
+}
