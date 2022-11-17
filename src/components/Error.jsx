@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../style/Error.css";
 const Error = () => {
-  document.title = "404 Error - Krish Jotaniya";
+  document.title = "404 Error";
   return (
     <section className="errorSec">
       <div className="errorCard">
