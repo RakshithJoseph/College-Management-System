@@ -74,6 +74,7 @@ const StudentList = () => {
           onChange={branchSelectHandler}
         >
           <option value="null">--- Select Branch ---</option>
+          <option value="cse">cse</option>
           {branches.map((branch, index) => {
             return (
               <option key={index} value={branch}>
