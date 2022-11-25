@@ -115,7 +115,7 @@ const StudentHome = () => {
   };
   return (
     <>
-      <Navbar title="Student Login - CMS" showText={details[0].e_no} />
+      <Navbar title="Student Login" showText={details[0].e_no} />
       <section className="studentContainer">
         <StudentCard allData={details} />
         <div className="studentBtnsArea">

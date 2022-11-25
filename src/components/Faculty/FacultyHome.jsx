@@ -104,7 +104,7 @@ const FacultyHome = () => {
   };
   return (
     <>
-      <Navbar title="Faculty Login - CMS" />
+      <Navbar title="Faculty Login" />
       <section className="facultyContainer">
         <FacultyCard allData={details} />
         <div className="facultyBtnsArea">

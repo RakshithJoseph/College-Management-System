@@ -119,7 +119,7 @@ const Login = () => {
 
   return (
     <>
-      <Navbar title="Class Cloud" showText="" />
+      <Navbar title="Faculty and Student Login" showText="" />
       <section className="loginContainer">
         <div className="loginCard">
           <img id="loginImg" src={require("../assets/classPng.png")} alt="" />

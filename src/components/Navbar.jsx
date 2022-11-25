@@ -5,6 +5,10 @@ import { useNavigate } from "react-router-dom";
 
 const Navbar = (props) => {
   const navigate = useNavigate();
+  const adminHandler = () =>{
+    localStorage.clear();
+    navigate("/admin");
+  }
   const logoutHandler = () => {
     localStorage.clear();
     if (props.route !== "admin") {
@@ -32,6 +36,9 @@ const Navbar = (props) => {
       <>
         <section className="navMain MainNavHead">
           <p className="navTitle">{props.title}</p>
+          <button className="adminNavBtn" onClick={adminHandler}>
+            <span id="logoutText">Admin Page</span>
+          </button>
         </section>
       </>
     );

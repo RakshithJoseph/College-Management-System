@@ -117,7 +117,7 @@ const AdminHome = () => {
   };
   return (
     <>
-      <Navbar title={`Admin Panel - CMS`} route="admin" />
+      <Navbar title={`Admin Panel`} route="admin" />
       <section className="mainAdminPanelContainer">
         <div className="adminCards">
           <div className="adminCard">

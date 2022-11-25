@@ -10,6 +10,7 @@
 .navTitle {
   text-align: center;
   text-transform: uppercase;
+  position: static;
   letter-spacing: 1px;
   font-weight: 600;
   font-size: 20px;
@@ -29,6 +30,22 @@
   padding: 4px 8px;
   color: #e5e5e5;
   border-radius: 2px !important;
+}
+.adminNavBtn {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  border: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin: 10px 15px;
+  background-color: #1f1f1f;
+  padding: 4px 8px;
+  color: #e5e5e5;
+  border-radius: 2px !important;
+  margin-left: 700px;
 }
 .navLogoutIcon {
   display: flex;
